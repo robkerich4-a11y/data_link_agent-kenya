@@ -16,7 +16,7 @@ interface PaymentModalProps {
 
 export const PaymentModal = ({ package: pkg, onClose }: PaymentModalProps) => {
   const [copied, setCopied] = useState(false);
-  const tillNumber = " 6208955";
+  const tillNumber = " 0725023110";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(tillNumber);
@@ -68,7 +68,7 @@ export const PaymentModal = ({ package: pkg, onClose }: PaymentModalProps) => {
               <li className="flex gap-2">
                 <span className="font-bold text-primary">4.</span>
                 <div className="flex-1">
-                  <span>Enter Number: </spannene 
+                  <span>Enter Number: </span> 
                   <div className="flex items-center gap-2 mt-1">
                     <span className="font-bold text-foreground text-lg">{tillNumber}</span>
                     <button
