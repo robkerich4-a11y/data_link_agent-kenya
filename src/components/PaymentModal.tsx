@@ -59,16 +59,16 @@ export const PaymentModal = ({ package: pkg, onClose }: PaymentModalProps) => {
               </li>
               <li className="flex gap-2">
                 <span className="font-bold text-primary">2.</span>
-                <span>Select Lipa na M-Pesa</span>
+                <span>Select Lipa Na M-pesa</span>
               </li>
               <li className="flex gap-2">
                 <span className="font-bold text-primary">3.</span>
-                <span>Select Buy Goods and Services</span>
+                <span>Select Buy Goods and Services-Pochi La Biashara</span>
               </li>
               <li className="flex gap-2">
                 <span className="font-bold text-primary">4.</span>
                 <div className="flex-1">
-                  <span>Enter Till Number: </span>
+                  <span>Enter Number: </spannene 
                   <div className="flex items-center gap-2 mt-1">
                     <span className="font-bold text-foreground text-lg">{tillNumber}</span>
                     <button
